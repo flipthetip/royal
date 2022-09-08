@@ -59,13 +59,13 @@ const Home: NextPage = () => {
         <div className='grid grid-col-2 text-md'>
           {/* <a className={styles.card} > */}
             <h4 className='font-bold text-white text-xl'> Reborn Royalty by Royal AI</h4>
-            <p className='text-white text-lg '>"Reborn Royalty – When You are Reborn, What will You Become?"</p>
+            <p className='text-white text-lg '>Reborn Royalty – When You are Reborn, What will You Become?</p>
           {/* </a> */}
 
 
 
 
-          <a href="/" className={styles.card}>
+          <a className={styles.card}>
           <h4 className='font-bold'> MINT HERE</h4>
             <p className=' '>Click here to mint. (9/8/22 - 8pm EST)</p>
           </a>
