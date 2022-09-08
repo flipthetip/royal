@@ -10,7 +10,7 @@ const Home: NextPage = () => {
     <div>
       <Head>
         <title>The Royal Museum</title>
-        <meta name='description' content='Just a simple Asset Manager/Suite in the Solana Blockchain. Coded in the Shadows | 👻 The Shady Class Buidl' />
+        <meta name='description' content='The Royal AI Gallery' />
         <link rel='icon' href='/favicon.ico' />
       </Head>
 
