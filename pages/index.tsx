@@ -65,9 +65,9 @@ const Home: NextPage = () => {
 
 
 
-          <a className={styles.card}>
+          <a href="https://mint.royalai.xyz/" className={styles.card}>
           <h4 className='font-bold'> MINT HERE</h4>
-            <p className=' '>Click here to mint. (9/8/22 - 8pm EST)</p>
+            <p className=' '>Click here to mint. (9/8/22 - 8pm EST / DeLayed a lot.)</p>
           </a>
           <br/>
 
