@@ -79,7 +79,7 @@ const Home: NextPage = () => {
 
           <div className='grid grid-col-2 text-xs'>
 
-          <a href="/" className='text-white'>
+          <a  className='text-white'>
           <h4 className='font-bold  text-2xl'>◻️ ART COLLAB PARTNERS ◻️</h4>
             {/* <p className='text-md '>(Click here to mint.)</p> */}
           </a>
