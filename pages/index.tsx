@@ -34,7 +34,7 @@ const Home: NextPage = () => {
           </h1>
 
           <div className={styles.card}>
-              <img src='/raihd.png' />
+              <img src='/rai.gif' />
           </div>
 <br/>
 <br/>
@@ -65,11 +65,106 @@ const Home: NextPage = () => {
 
 
 
-          <a href="https://mint.royalai.xyz/" className={styles.card}>
-          <h4 className='font-bold'> MINT HERE</h4>
-            <p className=' '>Click here to mint. (9/8/22 - 8pm EST / DeLayed a lot.)</p>
+          <br/>
+          <a href="https://mint.royalai.xyz/" className='text-white'>
+          <h4 className='font-bold  text-xl'> MINT HERE</h4>
+            <p className='text-md '>(Click here to mint.)</p>
           </a>
           <br/>
+          <br/>
+          <br/>
+
+
+
+
+          <div className='grid grid-col-2 text-xs'>
+
+          <a href="/" className='text-white'>
+          <h4 className='font-bold  text-2xl'>◻️ ART COLLAB PARTNERS ◻️</h4>
+            {/* <p className='text-md '>(Click here to mint.)</p> */}
+          </a>
+          <br/>
+          <a href="https://magiceden.io/marketplace/waxrai" className={styles.card} >
+            <h4 className='font-bold text-xl md:pl-12'>WEEPING ANGELS</h4><br/>
+            <p className='text-white md:pl-12'>◻️ A collaboration offering staking for $USTUFF.<br/></p>
+          </a>
+
+
+
+          {/* <a href="stove" className={styles.card}>
+          <h4 className='font-bold  md:pl-12'> STOVE / TOKEN BURNER</h4>
+            <p className=' md:pl-12'>Burn any known/unknown spl-token or NFT.</p>
+          </a>
+          <br/> */}
+
+          <br/>
+          <br/>
+          <br/>
+          <a
+            href="https://magiceden.io/marketplace/tbara"
+            className={styles.card}
+          >
+          <h4 className='font-bold text-xl md:pl-12'>TRIPPIN BABY APE TRIBE</h4><br/>
+            <p className='text-white md:pl-12'>◻️ Collection of 620 Trippin Baby Ape X Royal AI dominating the Solana blockchain.<br/></p>
+
+          </a>
+          <br/>
+          <br/>
+          <br/>
+          <a
+            href="https://magiceden.io/marketplace/sengoku_kami_by_royal_ai"
+            className={styles.card}
+          >
+          <h4 className='font-bold text-xl md:pl-12'>SENGOKU DEGENS</h4><br/>
+            <p className='text-white  md:pl-12'>◻️ 640 Sengoku Kami are a Pantheon of 1/1 AI Deities Here To Be Worshiped by All Degens & Rejuvenate Them Through Divine Utility.<br/></p>
+
+          </a>
+          <br/>
+          <br/>
+          <br/>
+          <a
+            href="https://magiceden.io/marketplace/krazy_komodos_by_royal_ai"
+            className={styles.card}
+          >
+          <h4 className='font-bold text-xl md:pl-12'>KRAZY KOMODOS</h4><br/>
+            <p className='text-white  md:pl-12'>◻️ Collection of 250 Krazy Komodos x Royal AI Reaking KrAzY havoc on the Solana blockchain.<br/></p>
+
+          </a>
+          <br/>
+          <br/>
+          <br/>
+          <a
+            href="https://magiceden.io/marketplace/ailysians_by_royal_ai"
+            className={styles.card}
+          >
+          <h4 className='font-bold text-xl md:pl-12'>ELYSIAN KIDS</h4><br/>
+            <p className='text-white  md:pl-12'>◻️ Mutated AI-lysians were born from the failed experiments performed in the AI-lysian labs.<br/></p>
+
+          </a>
+          <br/>
+          <br/>
+          <br/>
+          <br/>
+          <br/>
+          <br/>
+          <br/>
+
+          <a className='text-white'>
+          <h4 className='font-bold text-2xl'>◻️ ROYAL AI on Magiceden ◻️</h4>
+            {/* <p className='text-md '>(Click here to mint.)</p> */}
+          </a>
+          <a
+            href="https://magiceden.io/marketplace/unicorn"
+            className={styles.card}
+          >
+          <h2 className='font-bold text-xl text-white text-center'>UNICORN SAFE TUNA</h2><br/>
+          <p className='text-white md:pl-12'>◻️ Unicorn Safe Tuna is the 1st Royal AI Collection. All NFTS are 1/1s.<br/></p>
+
+          </a>
+          <br/>
+          <br/>
+          <br/>
+        </div>
 
 
 
@@ -122,10 +217,28 @@ const Home: NextPage = () => {
         {/* <br/>
         <br/> */}
         {/* <a href="https://discord.gg/7SrNbVyHDD"> */}
-        <h2 className='mb-6 text-xs pt-1 pb-1 text-white text-center w-full'>          
-        The Royal AI Collection 👑 - 2022 </h2>
+        <h2 className='mb-2 text-md pt-1 pb-1 text-white text-center w-full'>  
+        ✧✧✧✧✧<br/><br/>          
+        The Royal AI Gallery 👑 - 2022 </h2>
         {/* </a> */}
-
+        <div className='lg:mx-96 mb-4 grid grid-cols-2 md:grid-cols-4 lg:grid-cols-2'>
+          <div className={styles.pic2}>
+          <div className='ml-32 w-10 h-10 lg:w-12 lg:h-12 lg:ml-80 mb-2'>
+          <a href="https://www.discord.gg/RmMAYXwKMN">
+              <img src='/dcb.png' /> 
+              </a>
+              </div>
+              
+              </div>
+          <div className={styles.pic2}>
+          <div className='mr-32 w-10 h-10 lg:w-12 lg:h-12 lg:mr-80 mb-2'>
+          <a href="https://www.twitter.com/RoyalDex">
+              <img src='/twtb.png' />
+              </a>
+          </div>
+          
+          </div>
+          </div>
       </main>
 
     </div>

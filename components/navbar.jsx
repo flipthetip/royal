@@ -5,7 +5,7 @@ import { useState } from 'react'
 
 export const Navbar = props => {
   return (
-    <div className='navbar-center bg-none text-white text-sm max-h-1 w-3/9'>
+    <div className='navbar-center bg-none text-white text-sm max-h-1 w-3/9 m-2'>
       <div className='navbar-start'>       
         <div className='dropdown'>
           <label tabIndex='0' className='btn btn-ghost lg:hidden'>
@@ -76,7 +76,7 @@ export const Navbar = props => {
 
       </div>
 
-      <div className='bg-black hidden navbar-center lg:flex'>
+      <div className='bg-black p-2 hidden navbar-center lg:flex'>
         
         <ul className='shadow-white menu menu-horizontal'>
 
@@ -87,13 +87,13 @@ export const Navbar = props => {
               </button>
             </Link>
           </li>
-        <li>
+        {/* <li>
             <Link href='/' passHref>
               <button className='tracking-wide uppercase'>
                 MINT
               </button>
             </Link>
-          </li>
+          </li> */}
           <li>
             <Link href='/' passHref>
               <button className='tracking-wide uppercase'>
@@ -101,13 +101,13 @@ export const Navbar = props => {
               </button>
             </Link>
           </li>
-          <li>
+          {/* <li>
             <Link href='/' passHref>
               <button className='tracking-wide uppercase'>
                 COLLABS
               </button>
             </Link>
-          </li>
+          </li> */}
           <li>
             <Link href='https://magiceden.io/marketplace/unicorn' passHref>
               <button className='tracking-wide uppercase'>
